@@ -4,7 +4,6 @@
   "description": "Web server for interacting with database endpoints",
   "main": "server.js",
   "scripts": {
-    "build": "npm i typescript && tsc",
     "dev:start": "npm run build && nodemon ./build/server.js",
     "start": "npm run build && node ./build/server.js"
   },
